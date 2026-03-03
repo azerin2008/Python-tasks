@@ -1,0 +1,6 @@
+a = int(input("Uzunlugu: "))
+b = int(input("Eni: "))
+area = a * b
+perimeter = 2 * (a + b)
+print ("Sahe: " + str(area))
+print ("Perimetr: " + str(perimeter))
