@@ -1,0 +1,7 @@
+a = int(input("Eded daxil edin: "))
+if a <= 0:
+    print(a, "tek ve ya cut deyil.")
+elif (a % 2 == 0):
+    print(a, "cut ededdir.")
+else: 
+    print(a, "tek ededdir.")
