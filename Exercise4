@@ -1,0 +1,5 @@
+name = input("Adiniz: ")
+age = int(input("Yasiniz: "))
+heigh = int(input("Boyunuz: "))
+is_student = bool(input("Telebesiniz? (he(1),yox(0): "))
+print (type(name), type(age), type(heigh), type(is_student))
