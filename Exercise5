@@ -1,0 +1,4 @@
+a = input("Eded daxil edin: ")
+b = int(a)
+c = float(a)
+print (type(a), type(b), type(c))
