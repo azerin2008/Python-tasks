@@ -1,0 +1,8 @@
+a = int(input("Yasiniz: "))
+if (a >= 0):
+    if (a >= 18):
+        print ("Ses vere bilersiniz.")
+    else:
+        print ("Ses vermek ucun yasiniz catmir.")
+else:
+    print ("Dogru deyil!")
