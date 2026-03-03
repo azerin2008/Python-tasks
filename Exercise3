@@ -1,0 +1,3 @@
+birthYear = int(input("Dogum iliniz: "))
+year = int(input("Hazirki il: "))
+print ("Sizin yasiniz: " + str(year - birthYear))
