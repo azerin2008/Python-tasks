@@ -1,0 +1,8 @@
+a = int(input("Your score: "))
+if (a >= 0 and a <= 100):
+    if (a >= 60):
+        print ("Pass!")
+    else:
+        print ("Fail!")
+else:
+    print("Wrong score!")
