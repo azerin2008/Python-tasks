@@ -1,0 +1,4 @@
+weight = int(input("Çəki(kq): "))
+heigh = float(input("Boy(m): "))
+BMI = weight / (heigh**2)
+print ("BMI =",round(BMI, 1))
