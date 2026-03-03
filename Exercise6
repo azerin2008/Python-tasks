@@ -1,0 +1,5 @@
+item1 = int(input("Birinci qiymet: "))
+item2 = int(input("Ikinci qiymet: "))
+item3 = int(input("Ucuncu qiymet: "))
+result = item1 + item2 + item3
+print ("Netice: " + str(result))
