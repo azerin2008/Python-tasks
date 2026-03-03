@@ -1,0 +1,7 @@
+a = int(input("Eded daxil edin: "))
+if (a == 0):
+    print("Sifir")
+elif (a < 0):
+    print("Menfi")
+else:
+    print("Musbet")
