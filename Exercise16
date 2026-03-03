@@ -1,0 +1,13 @@
+a = int(input("a = ")) 
+b = int(input("b = ")) 
+c = int(input("c = "))
+if (a > b):
+    if (a > c):
+        print("Max:",a)
+    else:
+        print("Max:",c)
+else:
+    if (b > c):
+        print("Max:",b)
+    else:
+        print("Max:",c)
