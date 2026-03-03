@@ -1,0 +1,14 @@
+a = int(input("Imtahan bali: "))
+if (a >= 0 and a <= 100):
+    if (a > 90):
+        print ("Qiymet: A")
+    elif (a > 80):
+        print ("Qiymet: B")
+    elif (a > 70):
+        print ("Qiymet: C")
+    elif (a > 60):
+        print ("Qiymet: D")
+    else:
+        print ("Qiymet: F")
+else:
+    print ("Yanlis bal!")
