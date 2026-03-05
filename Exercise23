@@ -1,0 +1,6 @@
+income = int(input("Gelir: "))
+credit = int(input("Kredit: "))
+if income > 50000 and credit > 700:
+    print ("Ugurla tesdiq edildi.")
+else :
+    print ("Tesdiq edilmedi.")
