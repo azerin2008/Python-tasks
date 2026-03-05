@@ -1,0 +1,9 @@
+a = int(input("Yasiniz: "))
+if(a > 0 and a < 13):
+    print("Biletiniz 7$")
+elif(a >= 13 and a <= 17):
+    print("Biletiniz 10$")
+elif(a >= 18):
+    print("Biletiniz 15$")
+else:
+    print("Yeniden cehd edin!")
