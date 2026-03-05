@@ -1,0 +1,7 @@
+temp = int(input("Havanin temperaturu: "))
+if(temp > 30):
+    print("Kondisioneri acin.")
+elif(temp >= 20):
+    print("Normal temperatur.")
+else:
+    print("Qizdiricini acin.")
