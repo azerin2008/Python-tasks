@@ -1,0 +1,9 @@
+boy = int(input("Boyunuz(sm): "))
+yas = int(input("Yasiniz: "))
+if(boy >= 120):
+    if(yas < 18):
+        print("Valideyninizle gelin.")
+    else:
+        print("Girise icaze verildi.")
+else:
+    print("Giris qadagandir!")
