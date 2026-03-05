@@ -1,0 +1,8 @@
+correctUserName = "PythonUser"
+correctPassword = 1234
+userName = input("Istifadeci adi: ")
+password = int(input("Sifre: "))
+if(userName == correctUserName and password == correctPassword):
+    print("Girise icaze verildi.")
+else:
+    print("Giris redd edildi.")
