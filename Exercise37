@@ -1,0 +1,17 @@
+import math
+N = int(input("N = "))
+a = 0
+if(N <= 0):
+    print("Yanlis eded!")
+elif(N == 1):
+    print("Sade ve ya murekkeb deyil.")
+elif(N == 2):
+    print("Sade eded")
+else:
+    for i in range(2,int(math.sqrt(N) + 1)):
+        if(N % i == 0):
+            a = a + 1
+    if(a > 0):
+        print("Murekkeb eded")
+    else:
+        print("Sade eded")
