@@ -1,0 +1,7 @@
+yas = int(input("Yasiniz: "))
+derece = input("Dereceniz: ")
+tecrube = int(input("Tecrubeniz(il): "))
+if((yas >= 22 and yas <= 45) and (derece == "CS" or tecrube >= 5)):
+    print("Muraciet qebul olundu.")
+else:
+    print("Muraciet uygun deyil.")
