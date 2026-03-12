@@ -1,0 +1,2 @@
+1.	a = ["string", 8, True]
+print(a)
