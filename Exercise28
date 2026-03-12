@@ -1,0 +1,23 @@
+secim1 = input("Secim1(d,q,k): ") 
+secim2 = input("Secim2(d,q,k): ") 
+if(secim1 ==  "d"):
+    if(secim2 == "q"):
+        print("Qazanan: Oyuncu1")
+    elif(secim2 == "k"):
+        print("Qazanan: Oyuncu2")
+    elif(secim2 == "d"):
+        print("Yeniden cehd edin.")
+elif(secim1 == "q"):
+    if(secim2 == "k"):
+        print("Qazanan: Oyuncu1")
+    elif(secim2 == "d"):
+        print("Qazanan: Oyuncu2")
+    elif(secim2 == "q"):
+        print("Yeniden cehd edin.")
+elif(secim1 == "k"):
+    if(secim2 == "d"):
+        print("Qazanan: Oyuncu1")
+    elif(secim2 == "q"):
+        print("Qazanan: Oyuncu2")
+    elif(secim2 == "k"):
+        print("Yeniden cehd edin.")
