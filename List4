@@ -1,0 +1,4 @@
+a = ["string", 8, True, 17, "list", False]
+print("Evvel:", a)
+a[0] = "Abc"
+print("Sonra:", a)
