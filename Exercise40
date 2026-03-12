@@ -1,0 +1,12 @@
+username1 = "Azerin"
+password1 = 2008
+i = 0
+while(i < 3):
+    username = input("Username = ")
+    password = int(input("Password = "))
+    if(username == username1 and password == password1):
+        print("Giris tesdiqlendi.")
+        i = 3
+    else:
+        print("Ugursuz cehd")
+    i = i + 1
