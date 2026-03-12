@@ -1,0 +1,6 @@
+a = ["string", 8, True]
+b = ["string", 8, True]
+if(a == b):
+    print("=")
+else:
+    print("!=")
