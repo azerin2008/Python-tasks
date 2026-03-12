@@ -1,0 +1,8 @@
+qiymet = int(input("Qiymet: "))
+uzvluk = input("Uzvluk(true;false): ")
+if(qiymet >= 100):
+    print("Umumi mebleg:", qiymet)
+elif (uzvluk == "true"):
+    print("Umumi mebleg:",qiymet + 3)
+else:
+    print("Umumi mebleg:",qiymet + 7)
