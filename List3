@@ -1,0 +1,3 @@
+3.	a = ["string", 8, True]
+b = len(a)
+print(b)
