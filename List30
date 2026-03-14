@@ -1,0 +1,4 @@
+a = ["string", 8, True, 17, "list", False]
+for i in range(len(a)):
+    if(i % 2 == 0):
+        print(a[i])
