@@ -1,0 +1,4 @@
+a = ["one", "two", "three", "four"]
+b = a #Bir-birinden asili olur.
+print (a)
+print (b)
