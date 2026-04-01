@@ -1,0 +1,4 @@
+a = ["one", "two", "three", "four"]
+b = list(a)
+print (a)
+print (b)
