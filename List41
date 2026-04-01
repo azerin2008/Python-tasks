@@ -1,0 +1,5 @@
+a = ["one", "two", "three", "four"]
+b = a.copy()
+a.pop()
+print (a)
+print (b)
