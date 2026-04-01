@@ -1,0 +1,5 @@
+a = ["one", "two"]
+b = ["three", "four"]
+print (a + b) #Yeni list yaranir
+a.extend(b) #Birinci list deyisir
+print (a)
