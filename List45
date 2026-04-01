@@ -1,0 +1,5 @@
+import copy
+a = [["one", "two"], ["three", "four"]]
+b = copy.deepcopy(a)
+print (a)
+print (b)
