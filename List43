@@ -1,0 +1,4 @@
+a = ["one", "two", "three", "four"]
+b = a[ : ]
+print (a)
+print (b)
