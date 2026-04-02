@@ -1,0 +1,5 @@
+a = ("string", 8, True, 17, 8, "list", False, 8)
+i = 0
+while i < len(a):
+    print(a[i])
+    i = i + 1
