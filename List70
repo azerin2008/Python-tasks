@@ -1,0 +1,3 @@
+a = ("string", 8, True, 17, 8, "list", False, 8)
+print(8 in a)
+print("one" in a)
