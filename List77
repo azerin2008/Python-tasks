@@ -1,0 +1,4 @@
+def tuple1():
+    return(5, 10)
+x, y = tuple1()
+print(x, y)
