@@ -1,0 +1,3 @@
+a = ("one", "two", "one", "three", "four", "one")
+b = a.count("one")
+print (b)
