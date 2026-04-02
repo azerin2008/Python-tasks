@@ -1,0 +1,5 @@
+eded = input("Eded daxil edin: ")
+cem = 0
+for i in eded:
+    cem += int(i) 
+print("Reqemleri cemi:", cem)
