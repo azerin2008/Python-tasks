@@ -1,0 +1,3 @@
+a = ["string", 8, True, 17, "list", False]
+a.insert(5, "Item")
+print(a)
