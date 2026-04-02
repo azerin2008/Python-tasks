@@ -1,0 +1,4 @@
+a = ["string", 8, True, 17, "list", False]
+b = [2, "Boolean", 6]
+a.extend(b)
+print(a)
