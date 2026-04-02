@@ -1,0 +1,5 @@
+a = ("child1", "child2", "child3")
+(name1, name2, name3) = a
+print(name1)
+print(name2)
+print(name3)
