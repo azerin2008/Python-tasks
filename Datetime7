@@ -1,0 +1,7 @@
+import datetime
+x = datetime.datetime.now()
+day = x.strftime("%d")
+month = x.strftime("%m")
+year = x.strftime("%G")
+time = x.strftime("%X")
+print(day, month, year, time)
